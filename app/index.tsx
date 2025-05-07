@@ -7,7 +7,7 @@ const PhoneNumberValidator = () => {
   const [validationMessage, setValidationMessage] = useState('');
 
   const validatePhoneNumber = async () => {
-    const accessKey = 'sua-key';
+    const accessKey = '08838c34a5ec7b98e20824a1ae20a2f0';
     const apiUrl = `http://apilayer.net/api/validate?access_key=${accessKey}&number=${phoneNumber}`;
 
     try {
